@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup Form with Regex Validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Signup Form</h2>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <div class="error" id="nameError"></div>
+
+      <input type="email" id="email" placeholder="Email" required>
+      <div class="error" id="emailError"></div>
+
+      <input type="text" id="phone" placeholder="Phone (10 digits)" required>
+      <div class="error" id="phoneError"></div>
+
+      <input type="password" id="password" placeholder="Password" required>
+      <div class="error" id="passwordError"></div>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
